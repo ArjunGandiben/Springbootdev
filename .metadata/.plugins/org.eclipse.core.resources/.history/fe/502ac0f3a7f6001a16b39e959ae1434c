@@ -1,0 +1,5 @@
+package com.chatbot.entity;
+
+public class Messagedetails {
+
+}

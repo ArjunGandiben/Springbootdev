@@ -1,0 +1,21 @@
+package com.chatbot.entity;
+
+import javax.persistence.Entity;
+
+@Entity
+
+
+public class Messagedetails {
+	
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @NotBlank
+    private String title;
+
+    @NotBlank
+    private String content;
+	
+
+}
